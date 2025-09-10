@@ -23,7 +23,7 @@ monthly_savings = income - expenses
 
 # Calculate projected savings after one year with 5% interest
 annual_savings = monthly_savings * 12
-projected_savings = annual_savings + (annual_savings * 5)
+projected_savings = annual_savings + (annual_savings * 0.05)
 
 # Display the results
 print(f"Your monthly savings are ${monthly_savings}.")
